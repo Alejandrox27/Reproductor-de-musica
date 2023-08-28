@@ -1,0 +1,244 @@
+QMainWindow {
+    background-image: url(images/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+QDockWidget {
+    background-color: rgba(0,0,0,0.8);
+    color:white;
+    font-weight: bold;
+}
+
+QListWidget {
+    background-color: rgba(0,0,0,0.5);
+    color:white;
+}
+
+QPushButton#repeat{
+    background-color: gray;
+    image: url(images/repeat.png);
+    border-radius: 20px;
+    padding: 7px;
+}
+QPushButton#repeat::hover{
+    background-color: rgb(53, 53, 53);
+}
+
+QPushButton#repeat::pressed{
+    background-color: white;
+}
+
+
+
+QPushButton#before{
+    background-color: gray;
+    image: url(images/before.png);
+    border-radius: 20px;
+    padding: 7px;
+
+}
+
+QPushButton#before::hover{
+    background-color: rgb(53, 53, 53);
+}
+
+QPushButton#before::pressed{
+    background-color: white;
+}
+
+QPushButton#play{
+    background-color: gray;
+    image: url(images/play.png);
+    border-radius: 22px;
+    padding: 7px;
+}
+
+QPushButton#play::hover{
+    background-color: rgb(53, 53, 53);
+}
+
+QPushButton#play::pressed{
+    background-color: white;
+}
+
+QPushButton#random{
+    background-color: gray;
+    image: url(images/random.png);
+    border-radius: 20px;
+    padding: 7px;
+}
+
+QPushButton#random::hover{
+    background-color: rgb(53, 53, 53);
+}
+
+QPushButton#random::pressed{
+    background-color: white;
+}
+
+QPushButton#next{
+    background-color: gray;
+    image: url(images/next.png);
+    border-radius: 20px;
+    padding: 7px;
+}
+
+QPushButton#next::hover{
+    background-color: rgb(53, 53, 53);
+}
+
+QPushButton#next::pressed{
+    background-color: white;
+}
+
+QPushButton#btn_automatic{
+    background-color: gray;
+    image: url(images/repeat.png);
+    border-radius: 20px;
+    padding: 7px;
+}
+
+QPushButton#btn_automatic::hover{
+    background-color: rgb(53, 53, 53);
+}
+
+QPushButton#btn_automatic::pressed{
+    background-color: white;
+
+}
+
+QPushButton#btn_random{
+    background-color: gray;
+    image: url(images/random.png);
+    border-radius: 20px;
+    padding: 7px;
+}
+
+QPushButton#btn_random::hover{
+    background-color: rgb(53, 53, 53);
+}
+
+QPushButton#btn_random::pressed{
+    background-color: white;
+
+}
+
+QPushButton#btn_none{
+    background-color: gray;
+    image: url(images/none.png);
+    border-radius: 20px;
+    padding: 7px;
+}
+
+QPushButton#btn_none::hover{
+    background-color: rgb(53, 53, 53);
+}
+
+QPushButton#btn_none::pressed{
+    background-color: white;
+
+}
+
+QTabWidget::pane {
+    background: rgba(0,0,0,0.5);
+    border:0;
+}
+
+QTabBar::tab {
+    background: rgba(117, 117, 117, 0.5);
+    color:white;
+    font-weight: bold;
+}
+
+QStatusBar{
+    background-color:rgb(78,78,78);
+    color:white;
+    font-weight: bold;
+}
+
+QMenuBar {
+    background-color:rgb(29,29,29);
+    color:white;
+    font-weight: bold;
+}
+
+QMenuBar QMenu {
+    background-color:rgb(29,29,29);
+    color:white;
+    font-weight: bold;
+}
+
+QMenuBar QMenu::item:selected{
+    background-color:darkgray;
+}
+
+QMenuBar QMenu::item:pressed {
+    background-color: gray;
+}
+
+QLabel#lbl_volume{
+    font-family:'Courier New', Courier, monospace;
+    color:white;
+    font-size: 20px;
+}
+
+QLabel#lbl_tipo_de_reproduccion{
+    font-family:'Courier New', Courier, monospace;
+    color:white;
+    font-size: 20px;
+}
+
+QLabel#lbl_porcentaje{
+    font-family:'Courier New', Courier, monospace;
+    color:white;
+    font-size: 20px;
+}
+
+QTabWidget::tab-bar {
+    alignment: center;
+}
+
+QTabBar::tab {
+    background: rgba(255, 255, 255, 0.5); /* Color de fondo de las pestañas */
+    padding: 8px 16px;
+}
+
+QTabBar::tab:selected {
+    background: rgba(0, 0, 0, 0.5); /* Color de fondo de la pestaña seleccionada */
+}  
+
+
+QSlider {
+    background: transparent;
+}
+
+/* Riel del QSlider */
+QSlider::groove:horizontal {
+    height: 8px;
+    border-radius: 4px;
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #dadbde, stop:1 #000000);
+}
+
+/* Controlador del QSlider */
+QSlider::handle:horizontal {
+    width: 16px;
+    margin: -4px 0;
+    border-radius: 8px;
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #dadbde, stop:1 #f6f7fa);
+    border: 1px solid #c4c4c4;
+}
+
+/* Parte llena del QSlider */
+QSlider::sub-page:horizontal {
+    background: #560e58;
+    border-radius: 4px;
+}
+
+QToolTip {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
